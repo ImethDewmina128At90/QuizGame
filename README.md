@@ -6,7 +6,7 @@ A Java Swing desktop application for creating and playing quiz games with MySQL 
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 📸 Screenshots
+
 
 ### Title Screen
 - Select a category from the dropdown menu
