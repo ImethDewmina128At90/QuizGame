@@ -5,8 +5,41 @@ A Java Swing desktop application for creating and playing quiz games with MySQL 
 ![Java](https://img.shields.io/badge/Java-17%2B-orange)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
 
+---
 
+## 📖 About
 
+**Quiz Game** is a lightweight desktop quiz application that lets users both **play quizzes** and **create their own questions**. It stores all questions, categories, and answers in a MySQL database, so content is persistent and reusable across sessions.
+
+### ❓ Problem It Solves
+
+Traditional quiz tools are either too complex, require an internet connection, or don't let users build their own question banks easily. Quiz Game solves this by providing:
+
+- A **simple, offline desktop application** — no browser or internet needed.
+- An **easy question-creation workflow** — anyone can add questions without touching SQL.
+- **Automatic score tracking** with instant right/wrong feedback, removing the need for manual marking.
+- **Randomised question and answer order** so the same quiz feels fresh every time.
+
+### 👥 Who Is It For?
+
+| Audience | Use Case |
+|----------|----------|
+| **Students** | Self-study and revision across any subject |
+| **Teachers / Trainers** | Build question banks for classroom quizzes or assessments |
+| **Quiz Enthusiasts** | Create and play trivia games with friends |
+| **Java Learners** | Study a practical example of Java Swing + JDBC + MySQL integration |
+
+### 🛠️ Technologies Used
+
+| Layer | Technology |
+|-------|------------|
+| Language | Java 17+ |
+| GUI | Java Swing |
+| Database | MySQL 8.0 |
+| DB Connectivity | JDBC (MySQL Connector/J 9.5.0) |
+| Config | Custom `.env` file loader |
+
+---
 
 ### Title Screen
 - Select a category from the dropdown menu
